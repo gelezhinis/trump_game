@@ -1,0 +1,52 @@
+.game {
+   width: 1000px;
+   margin: 0 auto;
+}
+
+.hole {
+   display: inline-block;
+   margin: 10px;
+   width: 20%;
+   height: 250px;
+   overflow: hidden;
+   position: relative;
+}
+
+button {
+   padding: 20px;
+   font-size: 1.2em;
+   background-color: orange;
+   cursor: pointer;
+}
+
+.tribune {
+   background-image: url('img/tribune.png');
+   background-size: cover;
+   z-index: 10;
+   position: absolute;
+   height: 70px;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+}
+
+.trump {
+   background-image: url('img/trump.png');
+   background-size: cover;
+   z-index: 3;
+   position: absolute;
+   height: 200px;
+   top: 200px;
+   left: 0;
+   width: 100%;
+   cursor: crosshair;
+}
+
+.wack {
+   max-width: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   display: none;
+}
+
